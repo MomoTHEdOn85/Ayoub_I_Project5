@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/* CSS Document */
+/*------------------
+ 1- Global
+ 2- Ids
+ -------------------*/
+ /*___________________
+
+    Global
+  ___________________*/
+
+.hidden{
+	display: none;
+}
+
+p {
+	color: #fff;
+	line-height: 180px;
+	background: #000;
+	text-align: center;
+	margin: 0;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+
+/* Basic reset */
+/* Browsers have built in values for elements so few things needs to be reset to zero */
+div,p,body,header,footer,section,nav {
+	margin: 0;
+	padding: 0;
+}
+
+#siteCon {
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+  min-width: 641px;
+}
+
+/*___________________
+
+    Ids
+  ___________________*/
+
+#Head,#FooterMain,#HeroImage,#AdPanel,#Products,#EmailSign,#OurStory,#CForm{
+	margin-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+#logof, #logoh {
+	width: 450px;
+	float: left;
+}
+
+#mainNavf, #mainNavh {
+	float: right;
+	width: 1384px;
+}
+
+.fNavp {
+  display: none;
+}
+
+#navhp {
+  display:none;
+}
+#copyRight {
+	margin-top: 80px;
+	padding-top: 90px;
+}
+
+#copyRight p {
+	line-height: 80px;
+}
+
+#Products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#Products p {
+  padding: 8em;
+}
+
+#OurStory {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#OurStory p {
+  padding: 8em;
+}
+
+#HeroImage p {
+	line-height: 900px;
+}
+
+#AdPanel p {
+	line-height: 350px;
+}
+
+#EmailSign, #EmailSign p {
+  display: grid;
+  grid-auto-flow: row;
+	line-height: 200px;
+	background-color: black;
+}
+
+#Signbtn {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#Signbtn p {
+	line-height: 20px;
+	margin: auto;
+	padding: 20px;
+	align-content: center;
+	background-color: grey;
+}
+
+/*Mobile */
+ @media screen and (max-width: 1140px) {
+    #siteCon {
+     overflow: hidden;
+   }
+   #Products, #OurStory {
+     display: flex;
+     flex-direction: column;
+   }
+
+   #AdPanel, #AdPanel p {
+     display: none;
+   }
+   #logoh {
+     display: block;
+     justify-content: center;
+     padding-left: 8em;
+     padding-right: 2em;
+     width: 180px;
+   }
+   #logoh p {
+     padding: 5px;
+   }
+
+   #mainNavh {
+     display: grid;
+     grid-template-columns: 1fr;
+     width: 550px;
+     display: none;
+   }
+   #mainNavh p {
+     padding: 2em;
+   }
+
+   #navhp {
+     display: block;
+     float: right;
+     width: 70px;
+     height: auto;
+     padding: 5px;
+   }
+   #HeroImage p {
+     line-height: 400px;
+   }
+/*-------Footer--------*/
+   #FooterMain {
+     display: grid;
+     grid-template-rows: 1fr;
+   }
+   #logof {
+     width: 228px;
+
+     padding-left: 200px;
+     padding-right: 200px;
+   }
+
+   #mainNavf {
+     display: none;
+   }
+
+   .fNavp {
+     display: grid;
+     grid-template-columns: 0.5fr 0.5fr;
+     grid-gap: 50px;
+     padding: 20px;
+   }
+   #copyRight {
+     padding-top: 0px;
+     margin-top: 2px;
+   }
+
+   .active {
+     display: grid;
+   }
+
+ }
