@@ -1,0 +1,30 @@
+Project 5: Responsive Web Design - BASIC RESPONSIVE LAYOUT 
+----------------------------------------------------------
+Assignment Description: 
+You or your team is responsible for building a mobile first responsive web page/template using 
+Flexbox and or the CSS grid. 
+_____________________________
+Assignment Requirements: 
+The objecHve is to create a responsive boxed out version of one of the wireframes you created 
+for the final integrated assignment. Your HTML5 and CSS file must validate. SemanHc tagging is 
+required.  
+- Web Page 
+- 1 page 
+- SemanHc HTML 5 tagging 
+- Link to CSS file, JS File and Reset 
+- Valid HTML5 & CSS 
+- Proper Document Outline
+____________________________________
+Submission: 
+- Project must be submiled within Week 11 class Hme. 
+- When I download from your repo, the zip file should be named = 
+“LastName_FirstInital_Project3.zip” or “LastName_FirstInital_LastName_FirstInita_Project3.zip” 
+
+Folder contents:  
+- index.html 
+- images folder 
+- css folder 
+- js folder 
+- assets folder (everything you used in the creaHon of this project, wireframe, design brief, 
+design file) 
+- includes folder
